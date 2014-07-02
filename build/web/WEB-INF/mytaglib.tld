@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib version="2.1" 
+ xmlns="http://java.sun.com/xml/ns/javaee"  
+ 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+web-jsptaglibrary_2_1.xsd"> 
+
+<tlib-version>1.0</tlib-version> 
+ 	<short-name>mytag</short-name> 
+ <uri>/WEB-INF/mytaglib.tld</uri> 
+<tag> 
+ <name>table</name> 
+ <tag-class>ua.unif.tags.TableTag</tag-class> 
+ <body-content>empty</body-content> 
+ 	<attribute> 
+ 		<name>group</name> 
+ 		<required>true</required> 
+ 		<rtexprvalue>true</rtexprvalue> 
+ 	</attribute> 
+ 	<attribute> 
+ 		<name>page</name> 
+ 		<required>true</required> 
+ 		<rtexprvalue>true</rtexprvalue> 
+ 	</attribute> 
+ 	<attribute> 
+ 		<name>sizex</name> 
+ 		<required>true</required> 
+ 		<rtexprvalue>true</rtexprvalue> 
+ 	</attribute> 
+ 	<attribute> 
+ 		<name>sizey</name> 
+ 		<required>true</required> 
+ 		<rtexprvalue>true</rtexprvalue> 
+ 	</attribute> 
+ </tag> 
+<tag> 
+ <name>round</name> 
+ <tag-class>ua.unif.tags.RoundTag</tag-class> 
+ <body-content>empty</body-content> 
+  	<attribute> 
+ 		<name>number</name> 
+ 		<required>true</required> 
+ 		<rtexprvalue>true</rtexprvalue> 
+ 	</attribute> 
+ </tag>
+</taglib> 

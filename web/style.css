@@ -1,0 +1,64 @@
+body {
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+	background-color : #ffffff;
+	
+}
+.tbl1 
+{ 
+background: url('back.jpg'); 
+background-repeat: no-repeat; 
+} 
+
+
+.tbl2    table { 
+   cellspacing: "10";
+}
+.tbl2    td { 
+    padding: 5px;
+    border: 1px solid black; /* Граница вокруг ячеек */
+   }
+   
+
+
+p,h1,h2,h3,main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	color: black;
+}
+#navigation {
+border-bottom: 1px dotted #460016; 
+	margin: 3;
+	width: 100%;
+	background-color: #DDDDDD;
+}
+
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 160%;
+
+	font-weight: bold;
+}
+
+
+h3 {
+
+	font-size: 110%;
+
+	
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
